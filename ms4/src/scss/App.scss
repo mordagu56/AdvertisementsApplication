@@ -1,0 +1,57 @@
+@import '_normalize.scss';
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size:16px;
+  font-family: 'Roboto', sans-serif;
+  @media(max-width :1000px){
+    font-size:13px;
+  }
+}
+
+.login-form{
+  width:300px;
+  margin:auto;
+  display:flex;
+  flex-direction: column;
+  margin-top:20vh;
+  align-items: center;
+  button{
+    margin-top:20px;
+  }
+}
+
+.page{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.listing{
+  margin-top:25px;
+  margin-left:15px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home{
+  margin:auto;
+  width:300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top:25vh;
+  button{
+    margin-top:20px;
+  }
+}
+
+
+.add-form{
+  width:400px;
+  margin:auto;
+}
